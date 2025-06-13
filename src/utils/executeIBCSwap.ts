@@ -1,4 +1,3 @@
-import { API_BASE_URL } from '../constants';
 import { getCosmosRoute } from './getCosmosRoute';
 
 interface ERC20Approval {

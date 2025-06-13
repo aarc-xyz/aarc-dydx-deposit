@@ -1,5 +1,3 @@
-import { API_BASE_URL } from "../constants";
-
 // Types for the request
 interface SkipRouteRequest {
     amount_in: string;

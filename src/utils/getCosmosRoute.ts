@@ -139,7 +139,7 @@ export async function getCosmosRoute(
         cumulative_affiliate_fee_bps: "0"
     };
 
-    const response = await fetch(`${API_BASE_URL}/v2/fungible/route`, {
+    const response = await fetch('/.netlify/functions/skip-proxy/v2/fungible/route', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

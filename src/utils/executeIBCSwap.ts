@@ -86,7 +86,7 @@ export async function executeIBCSwap(
         slippage_tolerance_percent: slippageTolerancePercent
     };
 
-    const response = await fetch(`${API_BASE_URL}/v2/fungible/msgs`, {
+    const response = await fetch('/.netlify/functions/skip-proxy/v2/fungible/msgs', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
